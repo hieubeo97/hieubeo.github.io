@@ -42,7 +42,7 @@ function App() {
   }
   return (
     <div className="App">
-      <div>du doan ket qua so so trong khoang 1 den 10</div>
+      <div>du doan ket qua xo so trong khoang 1 den 10</div>
       <div>
         <input type="text" value={input} onChange={event => {setReport(''); setInput(event.target.value); }}></input>
       </div>
